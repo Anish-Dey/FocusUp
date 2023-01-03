@@ -66,7 +66,7 @@ export const Timer = ({ focusSubject, clearSubject, onTimerEnd }) => {
         )}
       </View>
       <View style={styles.clearSubjectWrapper}>
-        <RoundedButton size={55} title="-" onPress={clearSubject} />
+        <RoundedButton size={50} title="-" onPress={clearSubject} />
       </View>
     </View>
   );
@@ -105,6 +105,5 @@ const styles = StyleSheet.create({
   clearSubjectWrapper: {
     flexDirection: 'row',
     justifyContent: 'center',
-    paddingBottom: spacing.xl
   },
 });
